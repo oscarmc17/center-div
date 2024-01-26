@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: grey;
+}
+
+.outer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.middle{
+    width: 50%;
+    margin: 20px 0px;
+}
+
+.inner {
+    padding: 0px 25px;
+}
