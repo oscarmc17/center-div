@@ -9,11 +9,10 @@ main {
     margin: 2em auto;
 }
 
-.row {
+.row{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    text-align: center;
 }
 
 .image-column,
@@ -32,25 +31,29 @@ img {
     object-fit: cover;
 }
 
+.text-column {
+    flex: 1; /* Allow the column to grow and take up remaining space */
+}
+
 .text-container {
     background-color: #bbf2d1;
-    height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+    height: 100%; /* Set a height if you want the container to take up the full height of the column */
 }
 
 .product-title {
     color: #1e3932;
-    font-size: 3.125em;;
+    font-size: 3.125em;
     letter-spacing: 2px;
     line-height: 2;
 }
 
 .product-description {
-    font-size: 24px;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 .order-button {
@@ -62,9 +65,26 @@ img {
     text-align: center;
     text-decoration: none;
     color: #1E3932;
-    margin-top: 10px;
+    margin: 10px;
 }
 
 .order-button:hover {
     background-color: #1E39321A;
+}
+
+.row-2{
+    display: flex;
+}
+
+.row-2 .text-container {
+    background-color: #a5c4dc; /* Change background color for Row 2 */
+}
+
+/* Additional styles for Row 2 content */
+.row-2 .product-title {
+    color: #1e3932; /* Adjust text color for Row 2 title */
+}
+
+.row-2 .order-button:hover {
+    background-color: #a5c4dc1A; /* Adjust background color on hover for Row 2 button */
 }
