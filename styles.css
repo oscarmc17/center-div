@@ -6,7 +6,7 @@
 
 main {
     max-width: 1440px;
-    margin: 2em auto;
+    margin: 2rem auto;
 }
 
 .row{
@@ -46,14 +46,16 @@ img {
 
 .product-title {
     color: #1e3932;
-    font-size: 3.125em;
+    font-size: 3.125rem;
     letter-spacing: 2px;
     line-height: 2;
+    text-align: center;
 }
 
 .product-description {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-align: center;
+    margin: 0px 1rem;
 }
 
 .order-button {
@@ -86,5 +88,5 @@ img {
 }
 
 .row-2 .order-button:hover {
-    background-color: #a5c4dc1A; /* Adjust background color on hover for Row 2 button */
+    background-color: #1E39321A; /* Adjust background color on hover for Row 2 button */
 }
