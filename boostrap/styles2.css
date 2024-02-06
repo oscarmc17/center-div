@@ -1,0 +1,35 @@
+/* styles.css */
+
+/* You can keep your global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Additional styling for the body or main container if needed */
+body, .container-fluid {
+    background-color: #f8f9fa; /* Bootstrap background color */
+}
+
+/* Custom styling for the text container */
+.text-container {
+    background-color: #bbf2d1;
+    padding: 20px; /* Add padding for better spacing */
+    height: 100%;
+}
+
+/* Custom styling for the second row text container */
+.bg-light.text-container {
+    background-color: #a5c4dc;
+}
+
+/* Additional styling for the product title in the second row */
+.row h2.product-title {
+    color: #1e3932;
+}
+
+/* Additional styling for the order button in the second row on hover */
+.row .order-button:hover {
+    background-color: #1E39321A;
+}
